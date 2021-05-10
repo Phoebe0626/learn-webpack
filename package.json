@@ -13,6 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.6.4",
     "css-loader": "^5.2.4",
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -50,7 +54,10 @@
   "eslintConfig": {
     "extends": "airbnb-base",
     "rules": {
-      "linebreak-style": ["error", "windows"]
+      "linebreak-style": [
+        "error",
+        "windows"
+      ]
     }
   }
 }
