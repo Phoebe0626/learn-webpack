@@ -69,7 +69,7 @@ module.exports = {
               {
                 useBuiltIns: 'usage',
                 corejs: { version: 3 },
-                target: {
+                targets: {
                   chrome: '60',
                   firefox: '50',
                   ie: '9',
