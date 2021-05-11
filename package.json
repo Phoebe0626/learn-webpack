@@ -31,10 +31,12 @@
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
     "style-loader": "^2.0.0",
+    "thread-loader": "^3.0.4",
     "url-loader": "^4.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.1.5"
   },
   "dependencies": {
     "jquery": "^3.6.0",
@@ -54,6 +56,9 @@
   },
   "eslintConfig": {
     "extends": "airbnb-base",
+    "env": {
+      "browser": true
+    },
     "rules": {
       "linebreak-style": [
         "error",
