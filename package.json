@@ -37,6 +37,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "jquery": "^3.6.0",
     "less-loader": "^7.3.0"
   },
   "browserslist": {
@@ -60,5 +61,7 @@
       ]
     }
   },
-  "sideEffects": ["*.css"]
+  "sideEffects": [
+    "*.css"
+  ]
 }
